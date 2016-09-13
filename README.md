@@ -19,19 +19,19 @@
 [X] True.
 [ ] False.
 
-?: `render()` can return multiple child elements.
+?: Which of the following JSX values is _invalid_?
 
-[ ] True.
-[X] False.
+[X] `return (<div>I'm element one</div><div>I'm element two</div>);`
+[ ] `return (<div><div>I'm element one</div><div>I'm element two</div></div>);`
 
 ?: It's okay if `render()` sometimes returns a different result when given the same input.
 
 [ ] True.
 [X] False.
 
-?: Which of the following expressions is _not_ a side effect?
+?: Which of the following expressions is _definitely not_ a side effect?
 
-[ ] `console.log('Hello!');`
+[ ] `this.fetchFriends()`
 [X] `const fullName = this.props.firstName + ' ' + this.props.lastName;`
 [ ] `const id = Math.random() * 99;`
 
